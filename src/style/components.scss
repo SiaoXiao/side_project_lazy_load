@@ -1,0 +1,17 @@
+@layer components {
+  .defaultCard {
+    @apply flex flex-col h-[350px] p-6 border rounded-md shadow-md border-[#c4c6bc] cursor-pointer
+  }
+  .listItemCard {
+    @apply flex flex-col max-h-[350px] p-6 overflow-hidden border rounded-md shadow-md border-[#c4c6bc] transition-colors cursor-pointer hover:bg-white
+  }
+  .listItemTitle {
+    @apply mt-2 text-2xl font-semibold tracking-wide text-center transition-colors truncate text-[#272727] hover:text-[#ff6736]
+  }
+  .scrollBtn {
+    @apply fixed w-12 h-12 bg-slate-300 bottom-[10%] right-[5%] rounded-md flex items-center justify-center cursor-pointer z-10 text-2xl font-bold text-white shadow-md
+  }
+  .errorPage {
+    @apply flex items-center justify-center w-full min-h-screen tracking-widest text-red-600 text-6xl flex-col gap-5
+  }
+}

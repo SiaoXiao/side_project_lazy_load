@@ -1,0 +1,22 @@
+# 表示這是最頂層的設定文件，避免查找父目錄中的其他.editorconfig
+root = true
+
+# 對所有文件進行設定
+[*]
+# 使用空格進行縮進
+indent_style = space
+# 縮進使用2個空格
+indent_size = 2
+# 使用 LF 作為行結束符號
+end_of_line = lf
+# 設置文件字符集為 UTF-8
+charset = utf-8
+# 移除行尾的空白字符
+trim_trailing_whitespace = true
+# 文件結束時確保有一個換行符號
+insert_final_newline = true
+
+# 對 Markdown 文件的特殊設定
+[*.md]
+# 不刪除行尾的空白字符，因為在Markdown中可能有意義
+trim_trailing_whitespace = false

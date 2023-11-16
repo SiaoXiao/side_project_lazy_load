@@ -1,0 +1,8 @@
+@layer base {
+    html {
+      @apply font-sans bg-[#E7EDE3];
+    }
+    main {
+      @apply relative w-full max-w-5xl min-h-screen mx-auto;
+    }
+  }
