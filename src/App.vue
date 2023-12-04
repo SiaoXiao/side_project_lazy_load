@@ -20,6 +20,7 @@ const handleScrollTop = () => {
     top: 0,
     behavior: 'smooth'
   })
+  isActive.value = false
 }
 
 onMounted(() => {

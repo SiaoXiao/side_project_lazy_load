@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="grid min-h-[500px] grid-cols-1 gap-4 mt-4 sm:grid-cols-3 md:grid-cols-4 imageContainer"
-  >
+  <div class="grid min-h-[500px] grid-cols-1 gap-4 mt-4 md:grid-cols-2 imageContainer">
     <slot></slot>
   </div>
   <div v-show="props.isLoading" ref="loadingRef" class="animate-spin"></div>
@@ -26,16 +24,15 @@ const options = {
   delay: 500
 }
 
+const getData = () => {
+  emit('dataCheck')
+}
+
 const callback = ([entry]) => {
-  // eslint-disable-next-line no-use-before-define
   if (entry && entry.isIntersecting) getData()
 }
 
 const observer = new IntersectionObserver(callback, options)
-
-const getData = () => {
-  emit('dataCheck')
-}
 
 watch(
   () => props.isLoading,

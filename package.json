@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(vue|js|json|cjs)\"",
     "lint": "eslint --ext .js,.vue ."
   },
   "dependencies": {

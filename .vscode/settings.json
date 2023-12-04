@@ -19,5 +19,5 @@
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  }
 }

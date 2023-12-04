@@ -9,6 +9,8 @@
 
 ![This is the demo page](./preview.jpg)
 
+![This is the demo page](./preview_2.jpg)
+
 <h2>
 <a href="https://side-project-lazy-load.vercel.app/">
  demo here
