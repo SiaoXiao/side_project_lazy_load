@@ -40,9 +40,3 @@ This project uses Vite as the build tool, Vue3 as the front-end framework, and T
 1. Run `npm i` or `npm install` to install the Node.js dependencies.
 2. Run `npm run dev` to run server. Server is listening on localhost:3000.
 3. Open `http://localhost:8080/` in your browser.
-
-## 📦 API & image
-
-1. Image: https://picsum.photos/
-2. API: https://jsonplaceholder.typicode.com/
-
